@@ -35,6 +35,11 @@ console.log(listItems)
 
 // - Create a function called `empty`. It should:
 //   - reset the `basket` to an empty array
+function empty (basket, item){
+    if basket.length > 0 
+        return basket.length = 0;
+}    
+
 
 // > __IMPORTANT__
 // > Make sure that you are writing code *in the file* to test every function that you write!
