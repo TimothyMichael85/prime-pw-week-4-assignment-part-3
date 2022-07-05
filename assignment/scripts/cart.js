@@ -24,23 +24,21 @@ let basket = [];
 // - Create a function called `listItems`. It should:
 //   - loop over the items in the `basket` array
 //   - console.log each individual item on a new line
-function listItems (item,basket){
-    for (let i=0; i< basket.length; i++) 
-    if (basket[i] === item){
-      return basket;
+function listItems (){
+    for (let i=0; i< basket.length; i++) {
+        console.log(basket[i])
     }
-
+  
   } 
-console.log(listItems) 
-
+  listItems()
 // - Create a function called `empty`. It should:
 //   - reset the `basket` to an empty array
-function empty (basket){
+function empty (){
     if (basket.length > 0){ 
         return basket = [];
     }
 }    
-console.log(empty)
+console.log(empty())
 
 // > __IMPORTANT__
 // > Make sure that you are writing code *in the file* to test every function that you write!
